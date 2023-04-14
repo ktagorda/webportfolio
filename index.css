@@ -7,6 +7,24 @@
 	min-height: 100vh;
 }
 
+.background1 {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/149/185/desktop-wallpaper-japanese-garden-live-8-bit-japan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+	min-height: 100vh;
+}
+
+.background2 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/568/948/1/japan-pixel-art-urban-rain-hd-wallpaper-preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+	min-height: 100vh;
+}
+
 .bg-title{
 	color: white;
 	text-align: center;
