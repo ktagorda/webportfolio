@@ -1,0 +1,16 @@
+.background {
+    background-image: url('https://static.zerochan.net/Waneella.full.3253308.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+	min-height: 100vh;
+}
+
+.bg-title{
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	margin: 0;
+	line-height: 10em;
+}
