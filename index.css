@@ -25,10 +25,36 @@
 	min-height: 100vh;
 }
 
-.bg-title{
-	color: white;
+.background3 {
+    background-image: url('https://soranews24.com/wp-content/uploads/sites/3/2015/07/tumblr_njlqclfisw1qze3hdo1_r2_500.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    min-height: 50vh;
+}
+
+
+.bg-title {
+	color: #31E1F7;
 	text-align: center;
 	font-size: 5em;
 	margin: 0;
 	line-height: 10em;
+}
+
+
+.bg-dark {
+    color: #D800A6;
+}
+
+.text-light {
+    color: #57C5B6;
+
+}
+
+
+.card-link {
+    color: #31E1F7;
+
 }
