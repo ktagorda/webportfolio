@@ -17,7 +17,7 @@
 }
 
 .background2 {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/568/948/1/japan-pixel-art-urban-rain-hd-wallpaper-preview.jpg');
+    background-image: url('https://wallpaperwaifu.com/wp-content/uploads/2020/01/night-city-8-bit-thumb-1500x844.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,9 +29,9 @@
     background-image: url('https://soranews24.com/wp-content/uploads/sites/3/2015/07/tumblr_njlqclfisw1qze3hdo1_r2_500.gif');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: scroll;
-    min-height: 50vh;
+    min-height: 100vh;
 }
 
 

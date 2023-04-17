@@ -16,9 +16,9 @@
 </head>
 
 
-<body >
+<bod>
 <!-- Navbar Section Start -------------------------------------------------------------------------->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark font2">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
 		  <a class="navbar-brand" href="#">ktagorda</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@
 			<p class="container-fluid d-flex">
 				<section class="background">
 					<div>
-						<h3 class="bg-title" id="landing">My Portfolio</h3>
+						<h3 class="bg-title pt-5" id="landing">Kevin Clark Tagorda</h3>
 						<h4 class="text-center text-light">Thanks!</h4>
 					</div>
 				</section>
@@ -59,7 +59,7 @@
 <!-- Projects Start -->
 <div class="bg-secondary text-light min-vh-100 p-5 text-center background1">
 							
-							<h2 class="mb-3 text-dark" id="projects">Projects</h2>
+							<h1 class="mb-3" id="projects">Projects</h1>
 
 <!-- Container for Projects Start----------- -->
 							<div class="d-lg-flex justify-content-center p-md-5">
@@ -106,10 +106,10 @@
 
 
 <!-- About Start -->
-				<section class="text-center text-light" id="tools">
-					<div class="background2">
+				<section class="text-light" id="tools">
+					<div class="background2 text-center">
 						<h3>About ME</h3>
-						<h2>Kevin Tagorda</h2>
+						<h1>Kevin Tagorda</h1>
 						<h5>Full Stack Web Developer</h5>
 						<h6>I love cats</h6>
 					</div>
@@ -121,30 +121,30 @@
 
 <!-- Form Start--------------------------------------------------------------------------------------->
 <!-- Contact me--------------------------------------------------------------------------------------->
-				
-				<section id="contact" class="container-fluid">
-					<form class="bg-dark text-light min-vh-100 p-3">
-							<h3 class="typing">Connect with me</h3>
-
-							
-								<img src="https://soranews24.com/wp-content/uploads/sites/3/2015/07/tumblr_njlqclfisw1qze3hdo1_r2_500.gif" class="img-fluid device-width">
-
- 								<div class="form-group container-fluid bg-dark mt-3 pb-4 d-flex justify-content-center p-4 row col-12 col-md-8 col-xl-4">
-
-   								<label>Name</label>
-    								<input type="email" class="form-control" placeholder="Your Name">
-    							<label>Email</label>
-    								<input type="email" class="form-control" placeholder="name@example.com">
-   								<label>Mobile Number</label>
-    								<input type="Number" class="form-control" placeholder="+63 900 000 0000">
-								<label>Message</label>
-   									<textarea class="form-control" rows="5"></textarea>
-   								<button type="submit" class="btn btn-dark text-light mt-3">Send</button>
-  							</div>
-
-						</form>
-
-				</section>
+			 <div class="bg-dark min-vh-100 p-5" id="contact">
+                <h2 class="text-light text-center">Contact Me</h2>
+                <div class="row mt-3">
+                    <form class="pt-5 col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-dark p-3 rounded background3">
+                        <div class="form-group">
+                            <label class="text-light pt-5" for="name"> Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="text-light" for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="text-light" for="contact">Contact Number</label>
+                            <input type="text" class="form-control mb-5" id="contact" placeholder="+63 900 000 0000">
+                        </div>
+                        <div class="form-group">
+                            <label class="text-light pt-5 mt-5" for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="7"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+                    </form>
+                </div>
+            </div>
 <!-- Form end ------------------------------------------------------------------------------------->
 
 		</div>
