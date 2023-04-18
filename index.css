@@ -1,59 +1,169 @@
-.background {
-    background-image: url('https://static.zerochan.net/Waneella.full.3253308.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-	min-height: 100vh;
+*{
+    marign: 0;
+    padding: 0;
+    box-sizing:  border-box;
 }
-
 .background1 {
-    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/149/185/desktop-wallpaper-japanese-garden-live-8-bit-japan.jpg');
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/89/177/75/artistic-minimalism-black-and-white-minimalist-wallpaper-preview.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-	min-height: 100vh;
+    background-attachment: fixed;
+	min-height: 50%;
 }
 
-.background2 {
-    background-image: url('https://wallpaperwaifu.com/wp-content/uploads/2020/01/night-city-8-bit-thumb-1500x844.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-	min-height: 100vh;
-}
 
 .background3 {
     background-image: url('https://soranews24.com/wp-content/uploads/sites/3/2015/07/tumblr_njlqclfisw1qze3hdo1_r2_500.gif');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: center;
     background-attachment: scroll;
-    min-height: 100vh;
+    min-height: 40vh;
 }
 
 
 .bg-title {
 	color: #31E1F7;
 	text-align: center;
-	font-size: 5em;
+	font-size: 4rem;
 	margin: 0;
-	line-height: 10em;
 }
 
 
-.bg-dark {
-    color: #D800A6;
-}
-
-.text-light {
-    color: #57C5B6;
-
-}
-
-.card-link {
+.f-font {
     color: #31E1F7;
+    text-align: center;
+}
 
+.about-font {
+    color: #31E1F7;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.button-color {
+    color: #31E1F7;
+    text-align: center
+}
+
+.bg-text{
+        background-color: rgba(0, 0, 0, 0.2)  
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/*nav font*/
+
+.wrapper.one {
+    font-size: 4rem;
+    font-family: "Play", sans-serif;
+}
+.one .type{
+    width: auto;
+    margin: auto;
+}
+.one h3 {
+    width: 12ch;
+    border-right: 4px solid cyan;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(14, end), blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+/*landing font*/
+
+.wrapper.four {
+    font-size: 3rem;
+    font-family: "Play", sans-serif;
+}
+.four .type{
+    padding: 1rem 1rem;
+    width: auto;
+    margin: auto;
+}
+.four h1 {
+    color: #31E1F7;
+    text-align: center;
+    width: 16ch;
+    border-right: 4px solid cyan;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(14, end), blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+/*contact me font*/
+
+.wrapper.three {
+    font-size: 5rem;
+    font-family: "Play", sans-serif;
+}
+.three .type{
+    width: auto;
+    margin: auto;
+}
+.three h3 {
+    width: 10ch;
+    border-right: 4px solid black;
+    margin: 1rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(14, end), blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
 }
