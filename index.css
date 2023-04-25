@@ -3,92 +3,31 @@
     padding: 0;
     box-sizing:  border-box;
 }
-.background1 {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/89/177/75/artistic-minimalism-black-and-white-minimalist-wallpaper-preview.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-	min-height: 50%;
-}
 
 
-.background3 {
-    background-image: url('https://soranews24.com/wp-content/uploads/sites/3/2015/07/tumblr_njlqclfisw1qze3hdo1_r2_500.gif');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: center;
-    background-attachment: scroll;
-    min-height: 40vh;
-}
-
-
-.bg-title {
-	color: #31E1F7;
-	text-align: center;
-	font-size: 4rem;
-	margin: 0;
-}
-
-
-.f-font {
-    color: #31E1F7;
-    text-align: center;
-}
-
-.about-font {
-    color: #31E1F7;
-    text-align: center;
-    font-size: 3rem;
-}
-
-.button-color {
-    color: #31E1F7;
-    text-align: center
-}
-
-.bg-text{
-        background-color: rgba(0, 0, 0, 0.2)  
-}
-
-img {
-  opacity: 0.5;
-}
-
-img:hover {
-  opacity: 1.0;
-}
-
-
-nav {
-    background-color: rgba(0, 0, 0, 0.3)
-}
-
-form {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-
-
-
-
-/*nav font*/
+/*nav logo*/
 
 .wrapper.one {
-    font-size: 4rem;
-    font-family: "Play", sans-serif;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
 }
 .one .type{
     width: auto;
     margin: auto;
 }
 .one h3 {
-    width: 12ch;
+    width: 15ch;
     border-right: 4px solid cyan;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 3s steps(14, end), blink-caret 0.5s step-end infinite alternate;
+    animation: typing 3s steps(15, end), blink-caret 1s step-end infinite alternate;
+
 }
+
+
 @-webkit-keyframes typing {
     from {
         width: 0;
@@ -101,69 +40,177 @@ form {
 }
 
 
-/*landing font*/
 
-.wrapper.four {
-    font-size: 3rem;
-    font-family: "Play", sans-serif;
+/*nav font others*/
+#navbarnav {
+
+    font-family: 'Sulphur Point' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+/* identical to box height, or 185% */
 }
-.four .type{
-    padding: 1rem 1rem;
-    width: auto;
-    margin: auto;
-}
-.four h1 {
-    color: #31E1F7;
+
+
+#title {
+
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 4rem;
+/* identical to box height, or 185% */
+
     text-align: center;
-    width: 16ch;
-    border-right: 4px solid cyan;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 4s steps(14, end), blink-caret 0.5s step-end infinite alternate;
+
+    color: #05BFDB;
 }
-@-webkit-keyframes typing {
+
+#motto {
+
+    background-color: #010c3d;
+    font-family: 'Sulphur Point';
+    font-weight: 600;
+    background: url(https://img.freepik.com/premium-vector/space-background-dark-background-with-stars-outer-space-vector-illustration_101969-2526.jpg);
+    margin: 1.5rem;
+
+    font-size: 70px;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 15s linear infinite;
+}
+    @keyframes animatedOne {
     from {
-        width: 0;
+        background-position: 0 0;
     }
-}
-@-webkit-keyframes blink-caret {
-    50% {
-        border-color: transparent;
+    to {
+        background-position: 100% 0;
     }
+
+}
+
+hr {
+  height:3px;
+  border-width:0;
+  background-color:#ffffff;
+}
+
+#base {
+    font-family: 'Sulphur Point';
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color:rgba(255, 255, 255, .1);
+    padding: 6px 12px;
+    border-radius: 25px;
+}
+
+
+.background1 {
+    background-image: url('https://wallpapers.com/images/hd4/black-mountains-minimalist-5lab1dk0n122me23.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+/*--------------------MY PROJECTS SECTION*/
+
+/*---------------ABOUT ME*/
+
+
+
+#text-title {    
+   font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+/* identical to box height, or 185% */
+
+    color: #05BFDB;
+
+}
+
+
+#text-body {    
+   font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+/* identical to box height, or 185% */
+
 }
 
 
 
+/*-----------------CONTACT ME_-------*/
 
 
+#contact-header {    
+   font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+/* identical to box height, or 185% */
 
+    color: #05BFDB;
 
-
-/*contact me font*/
-
-.wrapper.three {
-    font-size: 5rem;
-    font-family: "Play", sans-serif;
 }
-.three .type{
-    width: auto;
-    margin: auto;
+
+
+#contact-text {
+
+    background-color: #010c3d;
+    font-family: 'Sulphur Point';
+    font-weight: 800;
+    background: url(https://img.freepik.com/premium-vector/space-background-dark-background-with-stars-outer-space-vector-illustration_101969-2526.jpg);
+    margin: 1.5rem;
+    font-size: 30px;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 15s linear infinite;
 }
-.three h3 {
-    width: 10ch;
-    border-right: 4px solid black;
-    margin: 1rem auto;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 4s steps(14, end), blink-caret 0.5s step-end infinite alternate;
-}
-@-webkit-keyframes typing {
+    @keyframes animatedOne {
     from {
-        width: 0;
+        background-position: 0 0;
     }
+    to {
+        background-position: 100% 0;
+    }
+
 }
-@-webkit-keyframes blink-caret {
-    50% {
-        border-color: transparent;
-    }
+
+
+
+#form-fields {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#form-btn {    
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    color: #05BFDB;
+    background-color:rgba(250, 250, 250, .2);
+    padding: 6px 12px;
+    border-radius: 25px;
+}
+
+
+/*-----------------FOOTER SECTION*/
+
+#footer {
+     font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+/* identical to box height, or 185% */
+
+    color: #05BFDB;
 }
