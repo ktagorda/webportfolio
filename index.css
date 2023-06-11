@@ -1,9 +1,12 @@
 *{
-    marign: 0;
+    margin: 0;
     padding: 0;
     box-sizing:  border-box;
 }
 
+html {
+   scroll-behavior: smooth; 
+}
 
 /*nav logo*/
 
@@ -20,7 +23,7 @@
 }
 .one h3 {
     width: 15ch;
-    border-right: 4px solid cyan;
+    border-right: 4px solid #05BFDB;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 3s steps(15, end), blink-caret 1s step-end infinite alternate;
@@ -42,15 +45,22 @@
 
 
 /*nav font others*/
-#navbarnav {
+#navbarNav {
 
     font-family: 'Sulphur Point' !important;
     font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 24px;
 /* identical to box height, or 185% */
 }
+
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #05BFDB;
+
+}
+
 
 
 #title {
@@ -58,13 +68,27 @@
     font-family: 'Sulphur Point';
     font-style: normal;
     font-weight: 600;
-    font-size: 75px;
+    font-size: 55px;
     line-height: 4rem;
 /* identical to box height, or 185% */
 
     text-align: center;
 
     color: #05BFDB;
+}
+
+
+#subtitle {
+
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 4rem;
+/* identical to box height, or 185% */
+
+    text-align: center;
+
 }
 
 #motto {
@@ -75,11 +99,35 @@
     background: url(https://img.freepik.com/premium-vector/space-background-dark-background-with-stars-outer-space-vector-illustration_101969-2526.jpg);
     margin: 1.5rem;
 
-    font-size: 70px;
+    font-size: 75px;
     background-position: 0 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #5b728a54;
-    animation: animatedOne 15s linear infinite;
+    animation: animatedOne 30s linear infinite;
+}
+    @keyframes animatedOne {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+
+}
+
+#motto2 {
+
+    background-color: #010c3d;
+    font-family: 'Sulphur Point';
+    font-weight: 600;
+    background: url(https://img.freepik.com/premium-vector/space-background-dark-background-with-stars-outer-space-vector-illustration_101969-2526.jpg);
+    margin: 1.5rem;
+
+    font-size: 65px;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 30s linear infinite;
 }
     @keyframes animatedOne {
     from {
@@ -116,15 +164,9 @@ hr {
     min-height: 100%;
 }
 
-/*--------------------MY PROJECTS SECTION*/
 
-html {
-   scroll-behavior: smooth; 
-}
 
 /*---------------ABOUT ME*/
-
-
 
 #text-title {    
    font-family: 'Sulphur Point';
@@ -139,13 +181,68 @@ html {
 
 
 #text-body {    
-   font-family: 'Sulphur Point';
+    font-family: 'Sulphur Point';
     font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: justify;
+
 /* identical to box height, or 185% */
 
 }
+
+#aboutbg {
+    background-color:rgba(255, 255, 255, .1);
+}
+
+
+
+/*--------------------MY PROJECTS SECTION*/
+
+
+
+.projectDesc {    
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: justify;
+    color: #05BFDB;
+
+}
+
+
+#other h4 {
+        font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: justify;
+    color: #05BFDB;
+
+}
+
+#other h5 {
+        font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #05BFDB;
+
+}
+
+#other p {
+        font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: justify;
+
+
+}
+
+
 
 
 
@@ -163,6 +260,15 @@ html {
 
 }
 
+
+.contactp {
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color:  white;
+
+}
 
 #contact-text {
 
@@ -196,7 +302,7 @@ html {
     background-position: 0 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #5b728a54;
-    animation: animatedOne 15s linear infinite;
+    animation: animatedOne 30s linear infinite;
 }
     @keyframes animatedOne {
     from {
@@ -248,7 +354,7 @@ html {
 .wrapper{
   width: 90%;
   margin: 0 auto;
-  max-width: 80rem;
+  max-width: auto;
 }
 
 .cols{
@@ -262,8 +368,11 @@ html {
           justify-content: center;
 }
 
+
+
 .col{
 /*  width: calc(25% - 2rem);
+  flex:  1 1 25%;
   margin: 1rem;*/
   cursor: pointer;
 }
@@ -279,7 +388,7 @@ html {
 .back{
   background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.0);
-  border-radius: 10px;
+  border-radius: 6px;
     background-position: center;
     -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
     transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -289,11 +398,14 @@ html {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     text-align: center;
-    min-height: 280px;
+    min-height: 220px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 6px;
     color: #ffffff;
     font-size: 1.5rem;
+        font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 400;
 }
 
 .back{
@@ -301,6 +413,7 @@ html {
   background: -webkit-linear-gradient(45deg,  #BB6BD1 0%, #86A8E7 0%,#03E0D1 100%);
   background: -o-linear-gradient(45deg,  #BB6BD1 0%, #86A8E7 0%,#03E0D1 100%);
   background: linear-gradient(45deg,  #BB6BD1 0%, #86A8E7 0%,#03E0D1 100%);
+
 }
 
 .front:after{
@@ -312,11 +425,11 @@ html {
     height: 100%;
     content: '';
     display: block;
-    opacity: .6;
-    background-color: #000;
+    opacity: .1;
+    background-color: #fffff;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .container:hover .front,
 .container:hover .back{
@@ -399,25 +512,129 @@ html {
 
 .front .inner span{
   color: rgba(255,255,255,0.7);
-  font-family: 'Montserrat';
+  font-family: 'Sulphur Point';
   font-weight: 300;
 }
 
 @media screen and (max-width: 64rem){
   .col{
     width: calc(33.333333% - 2rem);
+   flex-basis: calc(33.333333% - 2rem);
   }
 }
 
 @media screen and (max-width: 48rem){
   .col{
     width: calc(50% - 2rem);
+    flex-basis: calc(50% - 2rem);
   }
 }
 
 @media screen and (max-width: 32rem){
   .col{
+    flex-basis: 100%;
     width: 100%;
     margin: 0 0 2rem 0;
+  }
+}
+
+/*------------------------------------------------------------------*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #eee;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projectSection ul {
+  display: flex;
+  list-style: none;
+}
+
+.projectSection ul li {
+  position: relative;
+  margin: 0 3em;
+}
+
+.image,
+.shadow {
+  transform: rotateX(45deg) rotateZ(-25deg);
+  transform-style: preserve-3d;
+  transition: .3s;
+}
+
+.image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  align-items: center;
+  vertical-align: bottom;
+  filter: grayscale(100%);
+  transition: .3s;
+  width: auto;
+  height: 300px;
+}
+
+.image::before,
+.image::after {
+  content: '';
+  position: absolute;
+}
+
+.image::before {
+  bottom: -8px;
+  left: 0;
+  background-color: #d0d0d0;
+  width: 100%;
+  height: 16px;
+  transform: rotateX(90deg) translateY(-8px);
+}
+
+.image::after {
+  top: 0;
+  left: -8px;
+  width: 16px;
+  height: 100%;
+  background-color: #bbb;
+  transform: rotateY(90deg) translateX(8px);
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: -35px 45px 15px rgba(0, 0, 0, .1);
+}
+
+.projectSection ul li:hover .image,
+.projectSection ul li:hover .shadow {
+  transform: rotate(0);
+}
+
+.projectSection ul li:hover .image img {
+  filter: grayscale(0);
+}
+
+.projectSection ul li:hover .shadow {
+  box-shadow: 0 5px 40px rgba(0, 0, 0, .5);
+}
+
+@media (max-width: 1534px) {
+  .image img {
+    height: auto;
+    max-width: 100%;
   }
 }
