@@ -524,9 +524,9 @@ hr {
 }
 
 @media screen and (max-width: 48rem){
-  .col{
-    width: calc(50% - 2rem);
-    flex-basis: calc(50% - 2rem);
+  .col-sm-4{
+    width: 50% ;
+    flex-basis: 50%;
   }
 }
 
@@ -638,3 +638,10 @@ body {
     max-width: 100%;
   }
 }
+
+.btn-disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
