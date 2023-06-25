@@ -1,4 +1,6 @@
-document.getElementById('form-fields').addEventListener('input', function () {
+document.getElementById('form-fields').addEventListener('input', function (event) {
+   event.preventDefault();
+
   var fullName = document.getElementById('fullName').value;
   var emailAdd = document.getElementById('emailAdd').value;
   var sendMessage = document.getElementById('sendMessage').value;
@@ -19,13 +21,21 @@ function submitForm() {
   var sendMessage = document.getElementById('sendMessage').value;
 
   if (fullName === '' && emailAdd === '' && sendMessage === '') {
-    alert('Please fill in all required fields.');
+    showAlert('Kindly fill in all required fields.', "danger");
     return;
   }
 
   // If all fields are complete, you can proceed with sending the email
   sendMail();
 }
+
+ function showAlert(message, type) {
+    var alertContainer = document.createElement('div');
+    alertContainer.className = 'alert alert-' + type;
+    alertContainer.textContent = message;
+    document.getElementById('form-fields').prepend(alertContainer);
+  }
+
 
 function sendMail() {
   var fullName = document.getElementById('fullName').value;
@@ -47,9 +57,12 @@ function sendMail() {
       document.getElementById("emailAdd").value = "";
       document.getElementById("sendMessage").value = "";
       console.log(res);
-      alert("Your message sent successfully!!");
+      showAlert("Message sent successfully, will get back to you the soonest!", "success");
     })
     .catch(err => console.log(err));
+
+
+     return false;
 }
 
 
