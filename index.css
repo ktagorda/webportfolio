@@ -197,15 +197,22 @@ hr {
 }
 
 #aboutbg {
-    background-color: #C5C6C7;
+    background-color: #474B4F;
 }
 
+
+#certbg {
+    background-color: #222629;
+}
+
+
+
 #aboutcover{
-    background-color:  #19181A;
+    background-color:  #222629;
 }
 
 #dpcover{
-    background-color: #0B0C10;
+    background-color: #6B6E70;
 }
 
 /*--------------------MY PROJECTS SECTION*/
