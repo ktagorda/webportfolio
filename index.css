@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
     box-sizing:  border-box;
 }
 
@@ -78,7 +79,7 @@ html {
 }
 
 
-#subtitle {
+#subtitle { 
 
     font-family: 'Sulphur Point';
     font-style: normal;
@@ -88,6 +89,7 @@ html {
 /* identical to box height, or 185% */
 
     text-align: center;
+    color: #C5C6C7 !important;
 
 }
 
@@ -123,7 +125,7 @@ html {
     background: url(https://img.freepik.com/premium-vector/space-background-dark-background-with-stars-outer-space-vector-illustration_101969-2526.jpg);
     margin: 1.5rem;
 
-    font-size: 65px;
+    font-size: 3rem;
     background-position: 0 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #5b728a54;
@@ -142,15 +144,15 @@ html {
 hr {
   height:3px;
   border-width:0;
-  background-color:#ffffff;
+  background-color:#45A29E;
 }
 
 #base {
     font-family: 'Sulphur Point';
     font-weight: 400;
-    color: #FFFFFF;
+    color: #66FCF1;
     background-color:rgba(255, 255, 255, .1);
-    padding: 6px 12px;
+    padding: 8px 12px;
     border-radius: 25px;
 }
 
@@ -173,6 +175,7 @@ hr {
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
+    line-height: 1.2;
 /* identical to box height, or 185% */
 
     color: #05BFDB;
@@ -184,18 +187,26 @@ hr {
     font-family: 'Sulphur Point';
     font-style: normal;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: justify;
+    color: white;
+    line-height: 1.6;
 
 /* identical to box height, or 185% */
 
 }
 
 #aboutbg {
-    background-color:rgba(255, 255, 255, .1);
+    background-color: #C5C6C7;
 }
 
+#aboutcover{
+    background-color:  #19181A;
+}
 
+#dpcover{
+    background-color: #0B0C10;
+}
 
 /*--------------------MY PROJECTS SECTION*/
 
